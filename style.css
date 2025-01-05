@@ -1,10 +1,11 @@
 *{
-    color: rgb(125, 50, 20);
+    color: #6F1A07;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(255, 220, 200);
+    background-color: #E4E9B2;
 }
 
 h1,
@@ -26,4 +27,29 @@ a {
     font-weight: 200;
     font-size: 16px;
     text-decoration: none;
+}
+
+#intro-section,
+#ingredients-section,
+#steps-section {
+    margin: 0 auto;
+    width: 66%;
+    margin-bottom: 60px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+#intro-section {
+    text-align: center;
+}
+
+#ingredients-section {
+    text-align: center;
+}
+
+#recipes-list,
+#ingredients-list {
+    list-style: none;
 }
